@@ -1353,7 +1353,34 @@ function LandingPage({ ViewRegister, ViewLogin }: { ViewRegister: () => void; Vi
           </div>
         </div>
       </section>
+            {/* Demo Video */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-8">
+          <span className="text-xs font-bold uppercase tracking-wider text-emerald-600">
+            See It In Action
+          </span>
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">
+            EcoTracker Demo
+          </h2>
+          <p className="text-slate-600 mt-2 text-sm sm:text-base">
+            See how citizens report waste, request pickups, and how administrators
+            manage complaints and hotspots.
+          </p>
+        </div>
 
+        <div className="relative max-w-5xl mx-auto overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-xl">
+          <div className="aspect-video">
+            <iframe
+              src="https://drive.google.com/file/d/1dGEl7VM0NAPbkJ-tM7MxnasaxrWdHq7c/preview"
+              title="EcoTracker Demo Video"
+              className="w-full h-full"
+              allow="autoplay"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      
       {/* Impact Statistics */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="bg-emerald-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl relative overflow-hidden">
